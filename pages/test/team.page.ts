@@ -1,8 +1,5 @@
 class Team {
-  private setTeam = () =>
-    $(
-      '//div[@id="OB_EV14654565"]//a[@class="btmarket__name btmarket__name--featured"]'
-    );
+  private setTeam = () => $('//div[@id="OB_EV14654565"]');
 
   // ----- Steps -----
 
