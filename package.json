@@ -6,7 +6,9 @@
   "scripts": {
     "local": "wdio ./config/my.wdio.local.conf.js",
     "test": "wdio ./config/wdio.conf.local.js",
-    "tslint": "tslint --project tsconfig.json"
+    "tslint": "tslint --project tsconfig.json",
+    "android.browser": "./node_modules/.bin/wdio ./config/wdio.android.browser.conf.js",
+    "ios.browser": "./node_modules/.bin/wdio ./config/wdio.ios.browser.conf.js"
   },
   "husky": {
     "hooks": {
